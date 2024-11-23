@@ -1,0 +1,29 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+.experience {
+  padding-top: 100px;
+  padding-bottom: 92px;
+  background-color: $color-primary;
+  color: $color-white;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: $gap-lg;
+  }
+
+  .experience-item {
+    display: flex;
+    gap: $gap;
+  }
+
+  &__number {
+    font-size: 1.3125rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  &__image {
+    order: -1;
+  }
+}
