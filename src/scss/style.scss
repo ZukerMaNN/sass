@@ -1,6 +1,4 @@
 @use "presets" as *;
 @use "mixins" as *;
-
-@use "common";
-
-@use "components";
+@use "common" as *;
+@use "components" as *;

@@ -12,7 +12,7 @@
     gap: $gap-lg;
   }
 
-  .experience-item {
+  &__experience-item {
     display: flex;
     gap: $gap;
   }
